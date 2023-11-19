@@ -7,12 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <style>
         body{
-            background-image:url(1.jpg);
+            background-image:url("https://assets-global.website-files.com/625e75c5d17b9b8f0220b7bb/6428420ea53a59a81cb5a69a_seokratie_was-ist-pinterest-scaled-1.jpeg");
             background-attachment: fixed;
             backdrop-filter: blur(5px);
             background-size: cover;
             font-size: 14px;
-           
         }
         #login{
             display: flex;
@@ -20,6 +19,9 @@
             justify-content: center;
             height: 100vh;
             
+        }
+        h4{
+            font-size: 30px;
         }
         form{
             border: 1px solid white;
@@ -40,12 +42,8 @@
             width: 40px;
             height: 40px;
             position: absolute;
-            bottom: 79%;
-    
+            bottom: 88%;
         }
-       .h1{
-        
-       }
         #ip1{
             margin-bottom: 10px;
         }
@@ -87,17 +85,22 @@
         }
         span{
             margin-left: 30px;
-               
+        }
+        .term{
+            margin-left: 15px;
+        }
+        .sign{
+            margin-left: 28px;
         }
     </style>
 </head>
 <body>
     
     <div class="container" id="login"><br>
-        <img src="pinterest.png" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" alt="Pinterest Logo" aria-hidden="false">
         <form action="GET">
             <br><br>
-            <h4 class="h1">Log In To See More</h4><br>
+            <h4>Log In To See More</h4><br>
             <label for="">Email</label><br>
             <input type="email" class="" placeholder="Email" id="ip1"><br>
             <label for="">Password</label><br>
@@ -107,13 +110,15 @@
             <h6 id="k"><b>OR</b></h6>
             <button class="btn btn-primary" id="btn1">Continue with Facebook</button>
             <div><button class="btn btn-muted" id="btn2">Continue with Google</button><br><br></div>
-            <div>
+            <div class="term">
             <p class="par"> <span> By continuing,you agree to Pinterest's</span>
             <br><b>Term of Service</b> and acknowlegde you've read our <br>
             <b> <span >Privacy Policy. Notice at Collection</span></b></p>
             </div><hr>
+            <div class="sign">
             <p><b>Not an Pinterest yet? Sign up</b></p>
             <p>Are you a bussiness?Get started here!</p>
+        </div>
         </form>
     </div>
 </body>
