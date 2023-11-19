@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        body{
+            background-image:url(1.jpg);
+            background-attachment: fixed;
+            backdrop-filter: blur(5px);
+            background-size: cover;
+            font-size: 14px;
+           
+        }
+        #login{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            
+        }
+        form{
+            border: 1px solid white;
+            padding: 30px 100px;
+            max-width: 100%;
+            height: auto;
+            background-color: white;
+            border-radius: 30px;
+            
+        }
+        input{
+            border: 1px solid grey;
+            border-radius: 10px;
+            padding: 10px;
+            width: 270px;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            bottom: 79%;
+    
+        }
+       .h1{
+        
+       }
+        #ip1{
+            margin-bottom: 10px;
+        }
+        h6{
+            margin-top: 5px;
+        }
+        button{
+            margin-top: 10px;
+        }
+        #btn{
+            background-color: red;
+            width: 275px;
+            border-radius: 30px;
+        }
+        #btn1{
+            position:relative;
+         margin-top: 3px;
+            width: 275px;
+            border-radius: 30px;
+        }
+        #btn2{
+            background-color: white;
+            border: 1px solid grey;
+            width: 275px;
+            border-radius: 30px;
+        }
+        #k{
+            margin-top: 10px;
+            margin-left: 45%;
+        }
+        .par{
+            font-size:10.5px ;
+            text-align: justify;
+            flex-wrap: nowrap;
+        }
+        #par{
+            font-size: 10.5px;
+
+        }
+        span{
+            margin-left: 30px;
+               
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container" id="login"><br>
+        <img src="pinterest.png" alt="">
+        <form action="GET">
+            <br><br>
+            <h4 class="h1">Log In To See More</h4><br>
+            <label for="">Email</label><br>
+            <input type="email" class="" placeholder="Email" id="ip1"><br>
+            <label for="">Password</label><br>
+            <input type="password" placeholder="Password" id="ip">
+            <h6>Forgot Your Password?</h6>
+            <button class="btn btn-danger" id="btn">Log In</button>
+            <h6 id="k"><b>OR</b></h6>
+            <button class="btn btn-primary" id="btn1">Continue with Facebook</button>
+            <div><button class="btn btn-muted" id="btn2">Continue with Google</button><br><br></div>
+            <div>
+            <p class="par"> <span> By continuing,you agree to Pinterest's</span>
+            <br><b>Term of Service</b> and acknowlegde you've read our <br>
+            <b> <span >Privacy Policy. Notice at Collection</span></b></p>
+            </div><hr>
+            <p><b>Not an Pinterest yet? Sign up</b></p>
+            <p>Are you a bussiness?Get started here!</p>
+        </form>
+    </div>
+</body>
+</html>
